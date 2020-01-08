@@ -83,3 +83,31 @@ border: 3px solid black;
 .color {
     box-shadow: 0 9px 18px 0 rgba(0, 0, 0, 0.2), 0 16px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+@media only screen and (max-width: 600px) {
+    .play .bid {
+        width: 200px;
+        font-size: 24px;
+        display: block;
+        margin: 3vh auto;
+    }
+
+    .play button {
+        display: block;
+        margin: 0 auto;
+        width: 200px;
+        font-size: 24px;
+        text-align: center;
+        padding: 0;
+    }
+
+    .game {
+        margin: 5px;
+    }
+
+    .game div {
+        height: 200px;
+        margin: 5px;
+    }
+
+}
